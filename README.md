@@ -37,8 +37,11 @@ click Add
     sudo apt-get install vim
     sudo apt-get install curl
     sudo apt-get install -y build-essential
+    
+    // for docker
     sudo apt-get install apt-transport-https ca-certificates
     sudo apt-get install linux-image-extra-$(uname -r)
+    apt-get install apparmor
 ```
 
 ## install nvm and nodejs/npm versions
