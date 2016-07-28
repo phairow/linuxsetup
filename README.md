@@ -18,3 +18,15 @@ mount readwrite filesystem from recovery mode
 ```
     setxkbmap -option 'caps:ctrl_modifier,altwin:ctrl_alt_win,shift:both_capslock_cancel'
 ```
+
+force ubuntu to run at startup
+
+```
+    gnome-session-properties
+```
+
+click Add
+
+- name = Key Modifiers
+- Command = [see setxkbmap command above]
+
