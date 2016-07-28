@@ -32,10 +32,12 @@ click Add
 
 ## install some packages
 
-sudo apt-get install vim
-sudo apt-get install curl
+```
+    sudo apt-get install vim
+    sudo apt-get install curl
+```
 
 ## install some apps
-Atom editor
-Chrome (may be already have chromium)
-Firefox
+- Atom editor
+- Chrome (may be already have chromium)
+- Firefox
