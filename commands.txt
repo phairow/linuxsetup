@@ -1,0 +1,146 @@
+vim 
+	Navigation
+	h	move left
+	j	move down
+	k	move up
+	l	move right
+	w	jump by start of words (punctuation considered words)
+	W	jump by words (spaces separate words)
+	e	jump to end of words (punctuation considered words)
+	E	jump to end of words (no punctuation)
+	b	jump backward by words (punctuation considered words)
+	B	jump backward by words (no punctuation)
+	0	(zero) start of line
+	^	first non-blank character of line
+	$	end of line
+	G	Go To command (prefix with number)
+		Note:Prefix a cursor movement command with a number to repeat it.
+		For example, 4j moves down 4 lines.
+
+	Insert Mode
+	i	start insert mode at cursor
+	I	insert at the beginning of the line
+	a	append after the cursor
+
+	Editing
+	r	replace a single character (does not use insert mode)
+	J	join line below to the current one
+	cc	change (replace) an entire line
+	cw	change (replace) to the end of word
+	c$	change (replace) to the end of line
+	s	delete character at cursor and subsitute text
+	S	delete line at cursor and substitute text (same as cc)
+	xp	transpose two letters (delete and paste, technically)
+	u	undo
+	.	repeat last command
+
+	Marking Text (Visual Mode)
+	v	start visual mode, mark lines, then do command (such as y-yank)
+	V	start Linewise visual mode
+	o	move to other end of marked area
+	Ctrl+v	start visual block mode
+	O	move to Other corner of block
+	aw	mark a word
+	ab	a () block (with braces)
+	aB	a {} block (with brackets)
+	ib	inner () block
+	iB	inner {} block
+	Esc	exit visual mode
+	
+	Visual Mode
+	>	shift right
+	<	shift left
+	y	yank (copy) marked text
+	d	delete marked text
+	~	switch case
+
+	Cut and Paste
+	yy	yank (copy) a line
+	2y	yyank 2 lines
+	yw	yank word
+	y$	yank to end of line
+	p	put (paste) the clipboard after cursor
+	P	put (paste) before cursor
+	dd	delete (cut) a line
+	dw	delete (cut) the current word
+	x	delete (cut) current character
+
+	Exiting
+	:w	write (save) the file, but don't exit
+	:wq	write (save) and quit
+	:q	quit (fails if anything has changed)
+	:q!	quit and throw away changes
+
+	Search and Replace
+	/pattern		search for pattern
+	?pattern		search backward for pattern
+	n			repeat search in same direction
+	N			repeat search in opposite direction
+	:%s/old/new/g		replace all old with new throughout file
+	:%s/old/new/gc		replace all old with new throughout file with confirmations
+
+	Working with multiple files
+	:e filename		Edit a file in a new buffer
+	:bnext (or :bn)		go to next buffer
+	:bprev (of :bp)		go to previous buffer
+	:bd			delete a buffer (close a file)
+	:sp filename		Open a file in a new buffer and split window
+	ctrl+ws			Split windows
+	ctrl+ww			switch between windows
+	ctrl+wq			Quit a window
+	ctrl+wv			Split windows vertically
+
+tmux
+	CTRL-B
+
+	Basic
+	c	Create new window
+	d	Detach current client
+	l	Move to previously selected window
+	n	Move to the next window
+	p	Move to the previous window
+	&	Kill the current window
+	,	Rename the current window
+	%	Split the current window into two panes
+	q	Show pane numbers (used to switch between panes)
+	o	Switch to the next pane
+	?	List all keybindings
+	s	Switch sessions
+
+	Copy-Paste
+	ESC	Enter copy mode (changed from 'u')
+	v	Begin copy (like visual mode in vim)
+	y	Copy selected text (like yank in vim)
+	p	Past copied text (like paste in vim)
+
+	Window handling
+	n	(Move to the next window)
+	p	(Move to the previous window)
+	l	(Move to the previously selected window)
+	w	(List all windows / window numbers)
+	<window number> (Move to the specified window number, the default
+
+	Pane handling
+	%	(Split the window vertically)
+	"	"split-window"  (Split window horizontally)
+	:	"break-pane" (break out into it's own window)
+	o	(Goto next pane)
+	q	(Show pane numbers, when the numbers show up type the key to goto that pane)
+	{	(Move the current pane left)
+	}	(Move the current pane right)
+
+	select-pane
+	list-sessions	(shows current sessions)
+	rename-window	(change current window name)
+	begin-selection
+	copy-selection
+	set-window-option
+
+	resize-pane 		(By default it resizes the current pane down)
+	resize-pane -U 		(Resizes the current pane upward)
+	resize-pane -L 		(Resizes the current pane left)
+	resize-pane -R 		(Resizes the current pane right)
+	resize-pane 20 		(Resizes the current pane down by 20 cells)
+	resize-pane -U 20 	(Resizes the current pane upward by 20 cells)
+	resize-pane -L 20 	(Resizes the current pane left by 20 cells)
+	resize-pane -R 20 	(Resizes the current pane right by 20 cells)
