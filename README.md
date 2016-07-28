@@ -39,8 +39,10 @@ click Add
     
 ```
 
-## install nvm and nodejs/npm versions (node v4.3.2 at time of this writing)
+## install nvm and nodejs/npm versions
 - https://github.com/creationix/nvm
+
+(using node v4.3.2 at time of this writing)
 
 ## install some apps
 - Atom editor
