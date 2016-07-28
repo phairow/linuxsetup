@@ -39,5 +39,5 @@ click Add
 
 ## install some apps
 - Atom editor
-- Chrome (may be already have chromium)
+- Chrome (or may already have Chromium)
 - Firefox
