@@ -41,3 +41,4 @@ click Add
 - Atom editor
 - Chrome (or may already have Chromium)
 - Firefox
+- Brave
