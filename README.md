@@ -33,16 +33,21 @@ click Add
 ## install some packages
 
 ```
+    sudo abt-get update
     sudo apt-get install vim
     sudo apt-get install curl
     sudo apt-get install -y build-essential
-    
+    sudo apt-get install apt-transport-https ca-certificates
+    sudo apt-get install linux-image-extra-$(uname -r)
 ```
 
 ## install nvm and nodejs/npm versions
 - https://github.com/creationix/nvm
 
 (using node v4.3.2 at time of this writing)
+
+## install docker
+https://docs.docker.com/engine/installation/linux/ubuntulinux/
 
 ## install some apps
 - Atom editor
