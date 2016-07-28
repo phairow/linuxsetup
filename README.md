@@ -1,6 +1,13 @@
 # linuxsetup
 setup linux environment
 
+## recovery
+mount readwrite filesystem from recovery mode
+
+```
+    mount -o remount,rw /
+```
+
 ## xkb special key modifiers
 - left alt = left ctrl
 - left ctrl = special
