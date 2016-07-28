@@ -39,7 +39,7 @@ click Add
     
 ```
 
-## install nvm and nodejs/npm
+## install nvm (nodejs/npm v4.3.2 at time of this writing)
 - https://github.com/creationix/nvm
 
 ## install some apps
