@@ -11,3 +11,9 @@ setup linux environment
     key <LCTL> {    [ Super_L       ]   };
     key <LWIN> {    [ Alt_L     ]   };
 ```
+
+clear cache
+
+```
+    rm -rf /var/lib/xkb/*
+```
