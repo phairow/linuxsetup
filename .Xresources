@@ -12,7 +12,7 @@ xterm*background: Black
 xterm*foreground: Green
 XTerm*selectToClipboard: true
 xterm*faceName: Bitstream Vera Sans Mono
-xterm*faceSize: 24
+xterm*faceSize: 12
 !xterm*font: -misc-fixed-medium-*-*-*-*-200-*-*-*-*-iso10646-*
 xterm*boldMode: true
 XTerm*cursorColor: LightBlue
