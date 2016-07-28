@@ -1,0 +1,9 @@
+syn on
+set t_Co=256
+colorscheme vibrantink
+set autoindent
+set mouse=r
+set tabstop=4
+set ttyfast
+set showmode
+set nocompatible
