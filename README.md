@@ -5,6 +5,9 @@ setup linux environment
 - left alt = left ctrl
 - left ctrl = special
 - left special = left alt
+```
+    sudo vim /usr/share/X11/xkb/symbols/pc
+```
 
 ```
     key <ALT> {    [ Control_L     ]   };
@@ -15,5 +18,7 @@ setup linux environment
 clear cache
 
 ```
-    rm -rf /var/lib/xkb/*
+    sudo rm -rf /var/lib/xkb/*
 ```
+
+restart machine
