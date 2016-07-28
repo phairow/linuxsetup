@@ -115,7 +115,7 @@ clear cache
     sudo dpkg-reconfigure xkb-data
 ```
 
-or
+and
 
 ```
     sudo rm -rf /var/lib/xkb/*
