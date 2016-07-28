@@ -30,3 +30,12 @@ click Add
 - name = Key Modifiers
 - Command = [see setxkbmap command above]
 
+## install some packages
+
+sudo apt-get install vim
+sudo apt-get install curl
+
+## install some apps
+Atom editor
+Chrome (may be already have chromium)
+Firefox
