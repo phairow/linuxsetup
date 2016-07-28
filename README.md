@@ -25,6 +25,12 @@ mount readwrite filesystem from recovery mode
 clear cache
 
 ```
+    sudo dpkg-reconfigure xkb-data
+```
+
+or
+
+```
     sudo rm -rf /var/lib/xkb/*
 ```
 
