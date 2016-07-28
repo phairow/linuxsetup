@@ -30,3 +30,6 @@ bind -m vi-insert "\C-n":menu-complete
 
 # ^l clear screen
 bind -m vi-insert "\C-l":clear-screen
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
