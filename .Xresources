@@ -1,19 +1,19 @@
-! this are Xresources to make xterm look good
-! put into ~/.Xresources
-! after changing contents, run xrdb -merge .Xresources
-! gentoo has a bug so that it doesnt read it when X starts, so add above
-! command to /etc/xfce4/xinitrc (top) and be happy.
-Xft*antialias: true
-Xft*dpi: 72
+Xft.dpi: 96
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
 
 xterm*termName: xterm-256color
 xterm*geometry: 80x24
 xterm*background: Black
 xterm*foreground: Green
-
-!xterm*faceName: Bitstream Vera Sans Mono
-!xterm*faceSize: 18
-xterm*font: -misc-fixed-medium-*-*-*-20-*-*-*-*-*-iso10646-1
+XTerm*selectToClipboard: true
+xterm*faceName: Bitstream Vera Sans Mono
+xterm*faceSize: 24
+!xterm*font: -misc-fixed-medium-*-*-*-*-200-*-*-*-*-iso10646-*
 xterm*boldMode: true
 XTerm*cursorColor: LightBlue
 XTerm*color0: black
