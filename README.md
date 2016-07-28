@@ -35,7 +35,12 @@ click Add
 ```
     sudo apt-get install vim
     sudo apt-get install curl
+    sudo apt-get install -y build-essential
+    
 ```
+
+## install nvm and nodejs/npm
+- https://github.com/creationix/nvm
 
 ## install some apps
 - Atom editor
