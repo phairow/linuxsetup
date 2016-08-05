@@ -52,6 +52,9 @@ click Add
 ## install docker
 https://docs.docker.com/engine/installation/linux/ubuntulinux/
 
+## install docker-compose
+https://docs.docker.com/compose/install/
+
 ## install some apps
 - Atom editor
 - Chrome (or may already have Chromium)
