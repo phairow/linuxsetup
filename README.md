@@ -60,3 +60,4 @@ https://docs.docker.com/compose/install/
 - Chrome (or may already have Chromium)
 - Firefox
 - Brave
+- Gimp
