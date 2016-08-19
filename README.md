@@ -69,7 +69,7 @@ https://docs.docker.com/engine/installation/linux/ubuntulinux/
 https://docs.docker.com/compose/install/
 
 ## install some apps
-- Atom editor
+- Atom editor (plugins: apm install atom-typescript; apm install linter)
 - Chrome (or may already have Chromium)
 - Firefox
 - Brave
