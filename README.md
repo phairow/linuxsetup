@@ -61,6 +61,7 @@ https://docs.docker.com/compose/install/
 - Firefox
 - Brave
 - Gimp
+- Slack
 
 # android
 - java
