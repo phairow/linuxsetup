@@ -49,6 +49,9 @@ click Add
 
 (using node v4.3.2 at time of this writing)
 
+## install mongo to get mongo client
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
 ## install docker
 https://docs.docker.com/engine/installation/linux/ubuntulinux/
 
