@@ -74,6 +74,8 @@ https://docs.docker.com/compose/install/
 - Firefox
 - Brave
 - Gimp
+- Ghostscript
+- Inkscape
 - Slack
 
 # android
