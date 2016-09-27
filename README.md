@@ -76,6 +76,7 @@ https://docs.docker.com/compose/install/
 - Gimp
 - Ghostscript
 - Inkscape
+- Meld
 - Slack
 
 # android
