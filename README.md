@@ -70,7 +70,7 @@ https://docs.docker.com/compose/install/
 
 ## install some apps
 - Atom editor (plugins: apm install atom-typescript; apm install linter)
-- vscode editor (plugins: tslint, vetur, vim, vscode-icons)
+- vscode editor (plugins: tslint, vetur, vim, vscode-icons, debugger-for-chrome)
 - Chrome (or may already have Chromium)
 - Firefox
 - Brave
